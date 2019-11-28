@@ -13,6 +13,15 @@
 		C7B153F6238DABCA0092DE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B153F5238DABCA0092DE3D /* Assets.xcassets */; };
 		C7B153F9238DABCA0092DE3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B153F8238DABCA0092DE3D /* Preview Assets.xcassets */; };
 		C7B153FC238DABCA0092DE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B153FA238DABCA0092DE3D /* LaunchScreen.storyboard */; };
+		C7B1540F238DB4C40092DE3D /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B1540E238DB3420092DE3D /* Pacifico-Regular.ttf */; };
+		C7B15410238DB4C80092DE3D /* Oswald-VariableFont:wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B1540D238DB15D0092DE3D /* Oswald-VariableFont:wght.ttf */; };
+		C7B15411238DB4CE0092DE3D /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B15407238DB12B0092DE3D /* Oswald-Bold.ttf */; };
+		C7B15412238DB4CE0092DE3D /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B1540C238DB12B0092DE3D /* Oswald-ExtraLight.ttf */; };
+		C7B15413238DB4CE0092DE3D /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B1540A238DB12B0092DE3D /* Oswald-Light.ttf */; };
+		C7B15414238DB4CE0092DE3D /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B15408238DB12B0092DE3D /* Oswald-Medium.ttf */; };
+		C7B15415238DB4CE0092DE3D /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B15409238DB12B0092DE3D /* Oswald-Regular.ttf */; };
+		C7B15416238DB4CE0092DE3D /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B1540B238DB12B0092DE3D /* Oswald-SemiBold.ttf */; };
+		C7B15419238DBA340092DE3D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B15418238DBA340092DE3D /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C7B153F8238DABCA0092DE3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7B153FB238DABCA0092DE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7B153FD238DABCA0092DE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B15407238DB12B0092DE3D /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		C7B15408238DB12B0092DE3D /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
+		C7B15409238DB12B0092DE3D /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		C7B1540A238DB12B0092DE3D /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		C7B1540B238DB12B0092DE3D /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		C7B1540C238DB12B0092DE3D /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C7B1540D238DB15D0092DE3D /* Oswald-VariableFont:wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont:wght.ttf"; sourceTree = "<group>"; };
+		C7B1540E238DB3420092DE3D /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		C7B15418238DBA340092DE3D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 		C7B153EE238DABC70092DE3D /* EduServeCard */ = {
 			isa = PBXGroup;
 			children = (
+				C7B15417238DBA1D0092DE3D /* Views */,
+				C7B15403238DB0E20092DE3D /* Fonts */,
 				C7B153EF238DABC70092DE3D /* AppDelegate.swift */,
 				C7B153F1238DABC70092DE3D /* SceneDelegate.swift */,
 				C7B153F3238DABC70092DE3D /* ContentView.swift */,
@@ -73,6 +93,37 @@
 				C7B153F8238DABCA0092DE3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7B15403238DB0E20092DE3D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1540E238DB3420092DE3D /* Pacifico-Regular.ttf */,
+				C7B15406238DB11F0092DE3D /* Oswald */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C7B15406238DB11F0092DE3D /* Oswald */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1540D238DB15D0092DE3D /* Oswald-VariableFont:wght.ttf */,
+				C7B15407238DB12B0092DE3D /* Oswald-Bold.ttf */,
+				C7B1540C238DB12B0092DE3D /* Oswald-ExtraLight.ttf */,
+				C7B1540A238DB12B0092DE3D /* Oswald-Light.ttf */,
+				C7B15408238DB12B0092DE3D /* Oswald-Medium.ttf */,
+				C7B15409238DB12B0092DE3D /* Oswald-Regular.ttf */,
+				C7B1540B238DB12B0092DE3D /* Oswald-SemiBold.ttf */,
+			);
+			path = Oswald;
+			sourceTree = "<group>";
+		};
+		C7B15417238DBA1D0092DE3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7B15418238DBA340092DE3D /* InfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +185,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B153FC238DABCA0092DE3D /* LaunchScreen.storyboard in Resources */,
+				C7B1540F238DB4C40092DE3D /* Pacifico-Regular.ttf in Resources */,
 				C7B153F9238DABCA0092DE3D /* Preview Assets.xcassets in Resources */,
+				C7B15413238DB4CE0092DE3D /* Oswald-Light.ttf in Resources */,
+				C7B15412238DB4CE0092DE3D /* Oswald-ExtraLight.ttf in Resources */,
+				C7B15415238DB4CE0092DE3D /* Oswald-Regular.ttf in Resources */,
 				C7B153F6238DABCA0092DE3D /* Assets.xcassets in Resources */,
+				C7B15414238DB4CE0092DE3D /* Oswald-Medium.ttf in Resources */,
+				C7B15410238DB4C80092DE3D /* Oswald-VariableFont:wght.ttf in Resources */,
+				C7B15416238DB4CE0092DE3D /* Oswald-SemiBold.ttf in Resources */,
+				C7B15411238DB4CE0092DE3D /* Oswald-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B15419238DBA340092DE3D /* InfoView.swift in Sources */,
 				C7B153F0238DABC70092DE3D /* AppDelegate.swift in Sources */,
 				C7B153F2238DABC70092DE3D /* SceneDelegate.swift in Sources */,
 				C7B153F4238DABC70092DE3D /* ContentView.swift in Sources */,
